@@ -22,7 +22,6 @@ func multiply(num1 string, num2 string) string {
 		rate *= 10
 	}
 	rate = 1
-	//    fmt.Println("------------------")
 	for i := len(num2) - 1; i >= 0; i-- {
 		ans := int64(num2[i]) - 48
 		//    fmt.Println(ans)
